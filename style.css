@@ -1,0 +1,10 @@
+body {
+   background-image: linear-gradient(to right, #690069 , rgb(221, 144, 0));
+}
+
+.userIP {
+    font: 800 25px Arial;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px;
+    color: rgb(255, 255, 255);
+}
