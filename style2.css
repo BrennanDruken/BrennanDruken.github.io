@@ -1,0 +1,52 @@
+body {
+    background-image: linear-gradient(to right, #690069 , rgb(221, 144, 0));
+ } 
+
+.pg1 a {
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+}
+
+.pg1 a:hover {
+    text-decoration: underline;
+}
+
+#btn1 {
+justify-content: center;
+display: flex;
+}
+
+#btn1 button {
+    height: 50px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 255);
+    border: none;
+    border-radius: 30px;
+    outline: solid 4px black;
+}
+
+.btn1 button:hover {
+    cursor: pointer;
+}
+
+#p1 {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+#btn2 {
+    justify-content: center;
+    display: flex;
+}
+    
+#btn2 button {
+    height: 50px;
+    width: 100px;
+    background-color: rgba(255, 255, 255, 255);
+    border: none;
+    border-radius: 30px;
+    outline: solid 4px black;
+}

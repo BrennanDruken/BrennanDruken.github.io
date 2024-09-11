@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Webpage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="text-align: center;">IP Address</h1>
+    <p id="ipADDR" class="userIP" style="text-align: center;"></p>
+    <div class="a">
+    <a href="index2.html">Page 2</a>
+    </div>
+<script>
+    fetch('https://api.ipify.org/?format=json')
+    .then(response => response.json())
+    .then(data => {
+        document.getElementById("ipADDR").textContent = data.ip
+    })
+</script>
+</body>
+</html>
