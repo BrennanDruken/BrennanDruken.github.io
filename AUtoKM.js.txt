@@ -1,0 +1,3 @@
+let x = document.getElementById("AUtoKM").value;
+let y = 149597870;
+document.getElementById("AUoutput").textContent = (x*y);
