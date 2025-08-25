@@ -1,0 +1,1 @@
+Show the 3 nearest stars to said star for each page about the star, and have the star icon to the left of it like on the main star page

@@ -3,23 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UI test</title>
+    <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="header">
-<div class="Home"><a href="index.html"><img src="Home.svg" class="homeIMG" alt="Home"></a></div>
-</div>
-    <h1>Space Catalog</h1>
-    <p>This website contains a catalog of  minor planets, comets, moons and exomoons, planets and exoplanets, stars, galaxies, and more.</p>
-    <p>Clicking on the "Catalog" button brings you to a page containing different types of celestial objects. Clicking on a type of object will bring you to a list of objects of that type, either sorted alphabetically, numerically, or both. If you click on an object, it will bring you to a page that contains information about it.</p>
-    <div>
-    <br>
-    <a href="catalog.html"><button class="button" type="button">Catalog</button></a>
-    <br>
-    <button class="button" type="button">Info</button>
+    <!--Made by Brennan Druken-->
+    <div id="title-container">
+    <p id="title">Space Catalog</p>
     </div>
-    <br>
-    <p style="font-size: 10px";>*It is recommended you view this page on a computer</p>
+    <hr>
+    <div id="infobox-container">
+        <p id="header">Database</p>
+        <p id="desc">This is a database of astronomical objects. It contains information about galaxies, stars, planets, exoplanets, comets, etc. Clicking on a link below will bring you to a list of objects in that category. Clicking on the name of an object will bring you to a page containing information about that object.</p>
+        <button class="button">Comets</button>
+        <a href="minorplanets.html"><button class="button">Minor Planets</button></a>
+        <button class="button">Moons</button>
+        <button class="button">Exomoons</button>
+        <button class="button">Planets</button>
+        <button class="button">Exoplanets</button>
+        <a href="stars.html"><button class="button">Stars</button></a>
+        <a href="starclusters.html"><button class="button">Star Clusters</button></a>
+        <button class="button">Nebulae</button>
+        <button class="button">Galaxies</button>
+        <button class="button">Black Holes</button>
+        <button class="button">Pulsars</button>
+    </div>
 </body>
 </html>

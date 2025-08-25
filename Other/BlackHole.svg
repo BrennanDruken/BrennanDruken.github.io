@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="712"
-   height="712"
-   viewBox="0 0 188.38333 188.38333"
+   width="4000"
+   height="4000"
+   viewBox="0 0 1058.3333 1058.3333"
    version="1.1"
    id="svg1"
-   inkscape:export-filename="Home.svg"
+   inkscape:export-filename="notice.svg"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -17,22 +17,33 @@
   <sodipodi:namedview
      id="namedview1"
      pagecolor="#ffffff"
-     bordercolor="#999999"
-     borderopacity="1"
+     bordercolor="#000000"
+     borderopacity="0.25"
      inkscape:showpageshadow="2"
-     inkscape:pageopacity="0"
+     inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:document-units="px" />
+     inkscape:document-units="px">
+    <inkscape:page
+       x="0"
+       y="0"
+       width="1058.3333"
+       height="1058.3333"
+       id="page2"
+       margin="0"
+       bleed="0" />
+  </sodipodi:namedview>
   <defs
      id="defs1" />
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1">
-    <path
-       id="path5"
-       style="fill:#ffffff;stroke-width:0.243512"
-       d="M 94.191661,18.65312 18.653121,71.370313 H 169.73021 Z M 46.948034,73.458041 c -3.561277,0 -6.428031,2.571583 -6.428031,5.76554 v 84.741599 c 0,3.19396 2.866754,5.76503 6.428031,5.76503 H 81.73144 v -38.07262 h 24.92045 v 38.07262 h 34.7834 c 3.56128,0 6.42803,-2.57107 6.42803,-5.76503 V 79.223581 c 0,-3.193957 -2.86675,-5.76554 -6.42803,-5.76554 z" />
+    <circle
+       style="opacity:1;fill:#000000;stroke:none;stroke-width:12.6603;stroke-dasharray:none;stroke-opacity:1"
+       id="path3"
+       cx="529.16663"
+       cy="529.16663"
+       r="190.78429" />
   </g>
 </svg>
