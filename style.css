@@ -16,7 +16,7 @@ p {
 
 hr {
     height: 2px;
-    background-color: #232123;
+    background-color: #212223;
     border: none;
 }
 
@@ -41,14 +41,14 @@ hr {
 
 #title-container {
     margin: 12px;
-    background-color: #232123;
+    background-color: #212223;
     border-radius: 20px;
     padding: 1px;
     box-shadow: 0 3px 4px black;
 }
 
 #infobox-container {
-    background-color: #191919;
+    background-color: #171819;
     border-radius: 20px;
     padding: 1px;
     margin: 12px;
@@ -93,7 +93,7 @@ hr {
 }
 
 .SameSystem {
-    background-color: #232323;
+    background-color: #212223;
     border-radius: 45px;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -102,7 +102,7 @@ hr {
 }
 
 .notice {
-    background-color: #232323;
+    background-color: #212223;
     padding: 4px;
     border-radius: 45px;
     align-items: center;
