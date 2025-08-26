@@ -90,6 +90,7 @@ hr {
 
 .aligner {
     align-items: center;
+    display: flex;
 }
 
 .SameSystem {
