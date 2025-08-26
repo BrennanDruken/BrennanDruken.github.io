@@ -127,6 +127,12 @@ a:hover {
     text-decoration: underline;
 }
 
+.home {
+    width: 24px;
+    height: auto;
+    margin: 12px;
+}
+
 @font-face {
     font-family: Material;
     src: url('Other/Sans.ttf');
