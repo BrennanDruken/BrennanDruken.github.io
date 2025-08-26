@@ -42,17 +42,29 @@ hr {
 #title-container {
     margin: 12px;
     background-color: #212223;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 1px;
     box-shadow: 0 3px 4px black;
+    border: 0.1px solid rgb(87, 87, 87);
+    transition: 0.2s;
+}
+
+#title-container:hover {
+    border: 0.1px solid rgb(129, 129, 129);
 }
 
 #infobox-container {
     background-color: #171819;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 1px;
     margin: 12px;
     box-shadow: 0 3px 4px black;
+    border: 0.1px solid rgb(87, 87, 87);
+    transition: 0.2s;
+}
+
+#infobox-container:hover {
+    border: 0.1px solid rgb(129, 129, 129);
 }
 
 #desc {
@@ -62,7 +74,7 @@ hr {
 }
 
 .button {
-    border-radius: 20px;
+    border-radius: 10px;
     border: none;
     width: 202px;
     height: 52px;
@@ -105,13 +117,14 @@ hr {
 .notice {
     background-color: #212223;
     padding: 4px;
-    border-radius: 45px;
+    border-radius: 10px;
     align-items: center;
     display: flex;
     font-size: 18px;
     text-align: left;
     box-shadow: 0 3px 4px black;
     margin: 12px;
+    border: 0.1px solid rgb(87, 87, 87);
 }
 
 .info {
@@ -122,10 +135,6 @@ hr {
 
 a {
     text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 .home {
