@@ -125,6 +125,11 @@ hr {
     box-shadow: 0 3px 4px black;
     margin: 12px;
     border: 0.1px solid rgb(87, 87, 87);
+    transition: 0.2s;
+}
+
+.notice:hover {
+    border: 0.1px solid rgb(129, 129, 129);
 }
 
 .info {
