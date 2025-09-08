@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #121314;
+    background-color: #0b0b0c;
     color: white;
 }
 
@@ -16,7 +16,7 @@ p {
 
 hr {
     height: 2px;
-    background-color: #212223;
+    background-color: #131414;
     border: none;
 }
 
@@ -41,7 +41,7 @@ hr {
 
 #title-container {
     margin: 12px;
-    background-color: #212223;
+    background-color: #131414;
     border-radius: 10px;
     padding: 1px;
     box-shadow: 0 3px 4px black;
@@ -54,7 +54,7 @@ hr {
 }
 
 #infobox-container {
-    background-color: #171819;
+    background-color: #131414;
     border-radius: 10px;
     padding: 1px;
     margin: 12px;
@@ -74,6 +74,7 @@ hr {
 }
 
 .button {
+    /*
     border-radius: 10px;
     border: none;
     width: 202px;
@@ -87,12 +88,25 @@ hr {
     box-shadow: 0 1px 4px black;
     display: block;
     margin-left: 38px;
+    transition: 0.2s;*/
+    border-radius: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    min-width: 139px;
+    height: 43px;
+    background-color: #00000000;
+    font-family: Material;
+    color: rgb(255, 255, 255);
     transition: 0.2s;
+    position: relative;
+    display: block;
+    margin: 36px;
 }
 
 .button:hover {
-    box-shadow: 0 4px 4px black;
-    transform: translateY(-3px);
+    /*box-shadow: 0 4px 4px black;
+    transform: translateY(-3px);*/
+    background-color: rgb(255, 255, 255);
+    color: #131414;
 }
 
 .icon {
@@ -106,7 +120,7 @@ hr {
 }
 
 .SameSystem {
-    background-color: #212223;
+    background-color: rgb(30, 32, 32);
     border-radius: 45px;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -124,7 +138,7 @@ hr {
 }
 
 .notice {
-    background-color: #212223;
+    background-color: #131414;
     padding: 4px;
     border-radius: 10px;
     align-items: center;
